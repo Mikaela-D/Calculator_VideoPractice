@@ -1,0 +1,18 @@
+Index: src/main/java/ie/atu/Calc.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ie.atu;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Calc {\r\n\r\n    public static void main(String[] args) {\r\n    }\r\n\r\n    public static void delete() {\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/ie/atu/Calc.java b/src/main/java/ie/atu/Calc.java
+--- a/src/main/java/ie/atu/Calc.java	(revision 9c4646e329180b29a8f3aa0cc9375333f3d63c9b)
++++ b/src/main/java/ie/atu/Calc.java	(date 1673211099244)
+@@ -8,6 +8,6 @@
+     }
+ 
+     public static void delete() {
+-
++    //hello
+     }
+ }

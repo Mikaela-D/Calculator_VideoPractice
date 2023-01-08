@@ -1,0 +1,16 @@
+Index: src/main/java/ie/atu/Calc.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/ie/atu/Calc.java b/src/main/java/ie/atu/Calc.java
+--- a/src/main/java/ie/atu/Calc.java	
++++ b/src/main/java/ie/atu/Calc.java	
+@@ -19,6 +19,6 @@
+ 
+         int total = firstNumber + secondNumber;
+         System.out.println("The total is " + total);
+-
++    //hello
+     }
+ }
