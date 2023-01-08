@@ -8,8 +8,7 @@ public class Calc {
         add();
 
     }
-    public static void add()
-    {
+    public static void add() {
         System.out.println("Please enter your first number :");
         Scanner inputs = new Scanner(System.in);
         int firstNumber = inputs.nextInt();
@@ -19,6 +18,10 @@ public class Calc {
 
         int total = firstNumber + secondNumber;
         System.out.println("The total is " + total);
+
+    }
+
+    public static void delete() {
 
     }
 }
