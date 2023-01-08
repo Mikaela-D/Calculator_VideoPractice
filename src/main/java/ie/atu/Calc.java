@@ -5,21 +5,20 @@ import java.util.Scanner;
 public class Calc {
 
     public static void main(String[] args) {
-        add();
+        multiple();
 
     }
-    public static void add()
+    public static void multiple()
     {
-        System.out.println("Please enter your first number :");
+        System.out.println("Please enter your first number to multiply : ");
         Scanner inputs = new Scanner(System.in);
-        int firstNumber = inputs.nextInt();
+        int firstNum = inputs.nextInt();
 
-        System.out.println("Please enter your second number :");
-        int secondNumber = inputs.nextInt();
+        System.out.println("Please enter your second number to multiply : ");
+        int secondNum = inputs.nextInt();
 
-        int total = firstNumber + secondNumber;
-        System.out.println("The total is " + total);
-
+        int total1 = firstNum * secondNum;
+        System.out.println("The total is : " + total1);
     }
     public static void delete()
     {
